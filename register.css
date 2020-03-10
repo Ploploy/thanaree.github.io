@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+body{
+    background-color: #fff;
+}
+
+
+fieldset{
+    grid-row: 1 / span 1;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 8rem;
+    background-color: #ABD2FA;
+    border: 5px solid red;
+    }
+
+legend{
+    font-size: 4rem;
+    color: snow;
+    background-color: #00072D;
+    border-radius: 1rem;
+    border: 0.2rem solid red;
+    padding: 1rem;
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+}
+
+span{
+    font-size: 2.5rem;
+    color: red;
+    font-family: Helvetica,Arial,sans-serif;
+    margin-left: 5rem;
+}
+
+ #errormsg{
+     display: inline-block;
+ }
+
+ hr{
+    background-color: red;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+     
+ }
+.line1{
+    margin-left: 14rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+#firstname{
+    font-size: 1.5rem;
+    color: #000000;
+    font-family: Helvetica,Arial,sans-serif; 
+    margin-left: 8rem;
+    margin-right: 5rem;
+    display: inline-block;
+}
+
+#lastname{
+    font-size: 1.5rem;
+    color: #000000;
+    font-family: Helvetica,Arial,sans-serif;
+    display: inline-block;
+}
+
+.line2{
+    margin-left: 10rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+#gender{
+    font-size: 1.5rem;
+    color: #000000;
+    font-family: Helvetica,Arial,sans-serif; 
+    margin-right: 3rem;
+    display: inline-block;
+}
+#birthday{
+    font-size: 1.5rem;
+    color: #000000;
+    font-family: Helvetica,Arial,sans-serif; 
+    margin-right: 3rem;
+    display: inline-block;
+}
+#email{
+    font-size: 1.5rem;
+    color: #000000;
+    font-family: Helvetica,Arial,sans-serif; 
+    
+    display: inline-block;
+}
+
+.line3{
+    margin-left: 10rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+#username{
+    font-size: 1.5rem;
+    color: #000000;
+    font-family: Helvetica,Arial,sans-serif; 
+    margin-right: 5.5rem;
+    display: inline-block;
+}
+
+#password{
+    font-size: 1.5rem;
+    color: #000000;
+    font-family: Helvetica,Arial,sans-serif;
+    margin-right: 3rem;
+    display: inline-block;
+}
+#retype{
+    font-size: 1.5rem;
+    color: #000000;
+    font-family: Helvetica,Arial,sans-serif;
+    display: inline-block;
+}
+.line4{
+    margin-left: 34rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+#register{
+    margin-right: 7rem;
+    
+    display: inline-block;
+}
+
+#register input{
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+#reset{
+    display: inline-block;
+}
+#reset input{
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+#back_port{
+   
+    
+    text-align: center;
+}
+
+.b_port{
+	padding: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 2rem;
+    background-color:#00072D;
+    border-radius: 0.5rem;
+    box-shadow: 5px 3px #696868;
+    
+}
+.b_port a{
+	color: #FEFFFE;
+    font-size: 2rem;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+a:hover{
+    color: red
+  }
+
+
