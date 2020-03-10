@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Page Title</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='register.css'>
+	<link rel="stylesheet" href="index.html">
+	<script src='register.js'></script>
+</head>
+<body>
+	
+	<form name="myForm" id="myForm" action="login.html">
+	  <div class="grid-containers">
+		<fieldset>
+			<legend>Register</legend>
+			<span>* require</span> <br>
+			<span id="errormsg"></span> <br>
+			
+			<hr>
+
+			<div class="line1">
+			   <div id="firstname">
+			    First name*: 
+			   <input type="text" name="firstname" required>
+			   </div>
+			
+			   <div id="lastname">
+			    Last name*: 
+			   <input type="text" name="lastname" required >
+		       </div>
+			</div>
+			
+			<br>
+            <div class="line2">
+				<div id="gender">
+			      Gender*: 
+			    <input type="radio" name="gender" value="male" required>Male
+			    <input type="radio" name="gender" value="female" >Female
+			    <input type="radio" name="gender" value="female" >Other
+			    </div>
+
+			   <div id="birthday"> 
+			      Birthday*: 
+			    <input type="date" name="bday" value="" required >
+			   </div>
+
+			   <div id="email">
+			      Email address*: 
+			   <input type="email" name="email" required>
+		       </div>
+			</div>
+			
+			<br>
+			<div class="line3">
+				<div id="username">
+			    Username*: 
+			    <input type="text" name="username" required>
+				</div>
+				
+                <div id="password">
+			    Password*: 
+			    <input type="password" name="password1" required>
+				</div>
+				
+				<div id="retype">
+		        Retype Password*: 
+			    <input type="password" name="password2" required>
+			    </div>
+		    </div>
+
+			
+			
+			<div class="line4">
+				<div id="register">
+			    <input type="submit" value="Register">
+				</div>
+
+				<div id="reset">
+			    <input type="reset" value="Reset">
+			    </div>
+		   </div>
+		</fieldset>
+	</div>
+		
+		<div id="back_port">
+			<button class="b_port"><a href="index.html">Back To Portfolio</a></button>
+		</div>
+		
+	 </form>
+   
+</body>
+</html>
