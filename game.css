@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+body{
+    background-color: #291202;
+}
+#squares-layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: #EEE0CB;
+    border: 0.5rem solid rgb(240, 86, 30);
+}
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid black;
+}
+.red{
+    background-color: red; 
+}
+.blue{
+    background-color: blue; 
+}
+
+.green{
+    background-color: green; 
+}
+.b_port{
+	padding: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color:#7c412e;
+    border-radius: 0.5rem;
+    box-shadow: 5px 3px #3a3333;
+}
+.b_port a{
+	color: #FEFFFE;
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+a:hover{
+    color: wheat
+  }
+
+/*grid1*/
+.grid-container {
+	display: grid;
+	grid-template-columns: 25% auto 25%;
+}
+fieldset{
+   grid-column: 1 / span  2;
+    font-size: 1.5rem;
+    font-family: 'Roboto Mono',Arial, Helvetica, sans-serif;
+    color: #F2A65A;
+    margin-left: 25rem;
+    border: 0.3rem solid #EEE0CB;
+    background-color: #974328;
+    display: inline-block;
+}
+#timerClock{
+    font-size: 1.5rem;
+    font-family: 'Roboto Mono',Arial, Helvetica, sans-serif;
+    color: #F2A65A;
+    padding-right: 1rem;
+    margin-left: 0rem;
+    display: inline-block;
+   
+}
+#clock{
+    font-size: 1.5rem;
+    font-family: 'Roboto Mono',Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+legend{
+    font-size: 3rem;
+    font-family: 'Kanit',Arial, Helvetica, sans-serif ;
+    color: #EEE0CB;  
+}
+
+#squares-container{
+   grid-column: 1/ span 3;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+#back_port{
+    grid-column: 1 /span 3;
+    margin-top: 1rem;
+	margin-left: 75rem;
+}
+
+/*grid2*/
+@media only screen and (max-width: 768px) {
+	.grid-container {
+		grid-template-columns: 50% 50%;
+    }
+    .square {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        border: 3px solid black;
+    }
+    fieldset{
+        grid-column: 1 / span 2;
+        font-size: 1rem;
+        margin-left: 3rem;
+        margin-right: 1rem;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+    }
+    legend{
+        font-size: 2rem;
+    }
+    
+    #timerClock{
+        font-size: 1rem;
+    }
+    #clock{
+        font-size: 1rem;
+    }
+    #squares-container{
+        grid-column: 1 / span 2;
+    }
+    #squares-layer {
+        width: 450px;
+        height: 450px;  
+    }
+    .square {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+    }
+    #back_port{
+        grid-column: 1 /span 2;
+        margin-top: 1rem;
+		margin-left: 32rem;
+	}
+	.b_port a{
+		font-size: 1.3rem;
+	}
+}
+
+/*grid3*/
+@media only screen and (max-width: 500px) {
+	.grid-container {
+		grid-template-columns: auto;
+    }
+    
+    fieldset{
+        grid-column: 1 / span 1;
+        font-size: 0.8rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-top: 5rem;
+        margin-bottom: 2rem;  
+    }
+    legend{
+        font-size: 1.5rem;
+    }
+    #numbox{
+        font-size: 0.8rem;
+        display: inline-block;
+    }
+    #timerClock{
+        font-size: 0.8rem;
+        margin-left: 0.1rem;
+    }
+    #clock{
+        font-size: 0.8rem;
+    }
+    #squares-container{
+        grid-column: 1 / span 1;
+        
+    }
+    #squares-layer { 
+        width: 400px;
+        height: 400px;
+    }
+    .square {
+        position: absolute;
+      
+     
+    }
+    #back_port{
+        grid-column: 1 /span 1;
+        margin-top: 3rem;
+		margin-left: 10rem;
+	
+	}
+	.b_port a{
+		font-size: 1.3rem;
+	}
+}
